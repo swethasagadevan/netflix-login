@@ -1,0 +1,12 @@
+.mainsection{
+    background-image: url('../assets/background.jpg');
+    height:90vh;
+    /* padding-top: 2%; */
+}
+
+
+.mainsection-box{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    width: 40%;
+}
