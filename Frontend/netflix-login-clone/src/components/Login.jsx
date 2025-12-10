@@ -32,7 +32,7 @@ const Login = () => {
             setPwdValid(true)
         }
         if(userName && password){
-            const loginDetails=axios.post("http://localhost:3000/login",{"userName":userName,"password":password})
+            const loginDetails=axios.post("https://netflix-login-backend-3sui.onrender.com/login",{"userName":userName,"password":password})
 
         loginDetails.then((data)=>{
             if (data.data==true){
